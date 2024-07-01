@@ -27,10 +27,10 @@ timeout /t 3
 
 ## Run the Batch Script
 
-0.Connect your device through USB
-1.Double-click to Flash-CE-coordinator.bat file
+0.Connect your device through USB.  
+1.Double-click to Flash-CE-coordinator.bat file.  
 2.When prompted, enter the COM port (e.g., COM8).  
-3.The firmware flashing process will start.
+3.The firmware flashing process will start.  
   
 Note: The firmware file to flash must be the latest version.  
   
