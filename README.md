@@ -33,6 +33,6 @@ flasher_cc2538.exe -p %COM_PORT% -ewv [ENTER YOUR FIRMWARE PATH]
 Note: The firmware file to flash must be the latest version.  
   
 ## Lated Firmware Files Source
--For coordinator firmware, visit [Coordinator Firmware]([https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/releases](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x.0/bin)) and select the appropriate Launchpad_coordinator file.  
--For router firmware, visit [Router Firmware]([https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/releases](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/Z-Stack_3.x.0/bin))and select the appropriate Launchpad_router file.  
+-For coordinator firmware, visit [Coordinator Firmware](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x.0/bin) and select the appropriate Launchpad_coordinator file.  
+-For router firmware, visit [Router Firmware](https://github.com/Koenkk/Z-Stack-firmware/tree/master/router/Z-Stack_3.x.0/bin)and select the appropriate Launchpad_router file.  
 *Ensure you download the correct firmware file and place it in the same directory as the batch script.
