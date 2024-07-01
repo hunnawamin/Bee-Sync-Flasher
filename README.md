@@ -20,6 +20,7 @@ Create a batch script (`flash_firmware.bat`) with the following content:
 set /p COM_PORT="Enter COM port (e.g., COM8): "
 
 flasher_cc2538.exe -p %COM_PORT% -ewv [ENTER YOUR FIRMWARE PATH]
+```
 
 ## Run the Batch Script
 
