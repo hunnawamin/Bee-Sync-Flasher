@@ -18,4 +18,5 @@ Create a batch script (`flash_firmware.bat`) with the following content:
 @echo off
 set /p COM_PORT="Enter COM port (e.g., COM8): "
 
-flasher_cc2538.exe -p %COM_PORT% -ewv [ENTER YOUR FIRMWARE PATH]
+flasher_cc2538.exe -p %COM_PORT% -ewv [ENTER YOUR FIRMWARE PATH]```
+Save the file in the same directory where you extracted the zip file.
