@@ -11,7 +11,7 @@ Download the latest release of the tool from the [Bee-Sync-Flasher](https://gith
 
 Edit the batch script (`Flash-CE-coordinator.bat`) with your firmware path which is (.hex) file:  
 *Note: Save the batch file in the same directory where you extracted the zip file.  
- {แก้ไข batch script โดยใส่ Firmware Path ของไฟล์ .hex ตามนี้}
+ {แก้ไข batch script โดยใส่ Firmware Path ของไฟล์ .hex}
 ```batch
 @echo off
 set /p COM_PORT="Enter COM port (e.g., COM8): "
