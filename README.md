@@ -6,12 +6,12 @@ This repository provides a tool and instructions to flash Z-Stack firmware onto 
 ## Download the Zip File
 
 Download the latest release of the tool from the [Bee-Sync-Flasher](https://github.com/hunnawamin/Bee-Sync-Flasher/blob/main/Bee-Sync-Flasher.rar).
-
+ดาวน์โหลดซิปไฟล์นี้
 ## Create a Batch Script
 
 Edit the batch script (`Flash-CE-coordinator.bat`) with your firmware path which is (.hex) file:  
 *Note: Save the batch file in the same directory where you extracted the zip file.  
-
+แก้ไข batch script โดยใส่ Firmware Path ของไฟล์ .hex ตามนี้
 ```batch
 @echo off
 set /p COM_PORT="Enter COM port (e.g., COM8): "
@@ -27,7 +27,7 @@ timeout /t 3
 
 ## Run the Batch Script
 
-0.Connect your device through USB.  
+0. (Need to Unpack the package) Press and hold the Flash button about 2 Seconds and Connect your device through USB.
 1.Double-click to Flash-CE-coordinator.bat file.  
 2.When prompted, enter the COM port (e.g., COM8).  
 3.The firmware flashing process will start.  
