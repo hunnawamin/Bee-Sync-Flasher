@@ -27,7 +27,7 @@ timeout /t 3
 
 ## Run the Batch Script
 
-0. (Need to Unpack the package) Press and hold the Flash button about 2 Seconds and Connect your device through USB.  
+0. (Need to Unpack the housing) Press and hold the Flash button about 2 Seconds and Connect your device through USB and then release the flash button.  
 1.Double-click to Flash-CE-coordinator.bat file.  
 2.When prompted, enter the COM port (e.g., COM8).  
 3.The firmware flashing process will start.  
